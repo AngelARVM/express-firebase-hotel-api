@@ -12,6 +12,32 @@
 - Express
 - Firebase
 
+#### Instalación
+- Clonar repositorio
+- Instalar dependencias
+- Colocar archivo .env en la ruta /
+
+```
+#Express
+
+PORT
+HOST
+HOST_URL
+
+#Firebase
+
+API_KEY=
+AUTH_DOMAIN=
+PROJECT_ID=
+STORAGE_BUCKET=
+MESSAGING_SENDER_ID=
+APP_ID=
+
+```
+
+#### Comandos
+  npm start : corre el servidor localmente con nodemon
+
 #### ENDPOINTS
 
 
