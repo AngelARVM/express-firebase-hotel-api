@@ -35,12 +35,12 @@ const verifyData = (data) => {
   }
 
   let booking = {
-    address: data.address,
-    email: data.email,
-    phone: data.phone,
-    zip: data.zip,
-    payment_method: data.payment_method,
-    amount_paid: data.amount_paid,
+    address: data.address || "",
+    email: data.email || "",
+    phone: data.phone || "",
+    zip: data.zip || "",
+    payment_method: data.payment_method || "",
+    amount_paid: data.amount_paid || "",
     client_id: data.client_id,
     client_name: data.client_name,
     days_booked,

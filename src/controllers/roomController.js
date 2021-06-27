@@ -1,5 +1,4 @@
 const firebase = require('../../db')
-const Room = require('../models/room')
 const firestore = firebase.firestore()
 const status =["libre", "ocupado"]
 

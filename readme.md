@@ -93,7 +93,7 @@ Ejemplo respuesta /room/:id
 
 ##### notas
 ###### (*) body debe tener las propiedades id_ref(alphanum), detail(text), price(num), maxPeople(num), bedrooms(num), status("libre" | "ocupado")
-###### (**) body debe tener obligatoriamente las propiedades client_id(num, documento de identidad) client_name(text) status("Pendiente" | "Pagado" | "Eliminado") day_in(aaaa/mm/dd o juliano) day_out(aaaa/mm/dd o juliano). Cuando status es Pagado payment_method(text) y amount_paid(num) son requeridos. Tambien recibe opcionalmente datos de facturacion address(text) email(text) phone(num) zip(num)
+###### (**) body debe tener obligatoriamente las propiedades client_id(num, documento de identidad) client_name(text) status("Pendiente" | "Pagado" | "Eliminado") day_in(aaaa/mm/dd o juliano) day_out(aaaa/mm/dd o juliano) room_id(id de documento). Cuando status es Pagado payment_method(text) y amount_paid(num) son requeridos. Tambien recibe opcionalmente datos de facturacion address(text) email(text) phone(num) zip(num)
 
 
 Hecho con :heart:
